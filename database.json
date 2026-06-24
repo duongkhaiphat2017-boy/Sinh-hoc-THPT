@@ -1,0 +1,207 @@
+{
+  "knowledge": [
+    {
+      "id": "tb-1",
+      "grade": 10,
+      "theme": "cellular",
+      "title": "Cấu trúc tế bào nhân thực",
+      "summary": "Tế bào nhân thực cấu tạo phức tạp, chia thành nhiều khoang bào quan có màng bao bọc.",
+      "bullets": [
+        "Nhân tế bào: Chứa vật chất di truyền (ADN), trung tâm điều khiển hoạt động sống.",
+        "Ribosome: Nơi tổng hợp protein cho tế bào.",
+        "Ti thể: Nhà máy năng lượng, thực hiện quá trình hô hấp tế bào sản sinh ATP.",
+        "Lục lạp (chỉ có ở tế bào thực vật): Thực hiện quang hợp."
+      ]
+    },
+    {
+      "id": "tb-2",
+      "grade": 10,
+      "theme": "cellular",
+      "title": "Chu kỳ tế bào và Nguyên phân",
+      "summary": "Chu kỳ tế bào gồm Kỳ trung gian (phát triển và nhân đôi NST) và Nguyên phân.",
+      "bullets": [
+        "Kỳ đầu: NST kép bắt đầu co xoắn, màng nhân biến mất.",
+        "Kỳ giữa: NST kép co xoắn cực đại, xếp thành 1 hàng ở mặt phẳng xích đạo.",
+        "Kỳ sau: Các chromatid chị em tách nhau ra và di chuyển về hai cực.",
+        "Kỳ cuối: NST dãn xoắn, màng nhân tái xuất hiện, phân chia tế bào chất."
+      ]
+    },
+    {
+      "id": "dt-1",
+      "grade": 11,
+      "theme": "genetics",
+      "title": "Trao đổi nước và khoáng ở thực vật",
+      "summary": "Rễ hấp thụ nước bằng cơ chế thẩm thấu và ion khoáng bằng cơ chế chủ động/thụ động.",
+      "bullets": [
+        "Hấp thụ nước: Nước đi từ môi trường đất (nhược trương) vào tế bào lông hút (ưu trương).",
+        "Vận chuyển trong thân: Dòng mạch gỗ (nước + khoáng đi lên) và dòng mạch rây (chất hữu cơ đi xuống).",
+        "Thoát hơi nước: Tạo lực kéo đầu trên và giúp hạ nhiệt độ lá cây thông qua khí khổng."
+      ]
+    },
+    {
+      "id": "dt-2",
+      "grade": 11,
+      "theme": "cellular",
+      "title": "Quang hợp ở thực vật",
+      "summary": "Quá trình sử dụng năng lượng ánh sáng để tổng hợp chất hữu cơ từ CO2 và nước.",
+      "bullets": [
+        "Pha sáng: Diễn ra ở màng thylakoid, biến đổi năng lượng ánh sáng thành ATP và NADPH, giải phóng O2 từ quang phân ly nước.",
+        "Pha tối (Chu trình Calvin): Diễn ra ở chất nền stroma, sử dụng ATP và NADPH để cố định CO2 thành carbohydrate."
+      ]
+    },
+    {
+      "id": "th-1",
+      "grade": 12,
+      "theme": "genetics",
+      "title": "Cơ chế phiên mã và dịch mã",
+      "summary": "Quá trình truyền thông tin di truyền từ ADN sang ARN và dịch sang trình tự acid amin.",
+      "bullets": [
+        "Phiên mã: Enzim ARN polymerase liên kết vùng khởi động, tổng hợp mạch ARN theo chiều 5' -> 3' bổ sung với mạch gốc.",
+        "Dịch mã: Diễn ra tại ribosome ở tế bào chất, codon trên mARN bắt cặp với anticodon của tARN để lắp ráp chuỗi polypeptide."
+      ]
+    },
+    {
+      "id": "th-2",
+      "grade": 12,
+      "theme": "evolution",
+      "title": "Học thuyết tiến hóa Darwin",
+      "summary": "Tiến hóa thông qua cơ chế chọn lọc tự nhiên tác động lên biến dị cá thể.",
+      "bullets": [
+        "Biến dị: Các đặc điểm biến dị xuất hiện cá thể, xuất hiện ngẫu nhiên không định hướng.",
+        "Chọn lọc tự nhiên: Đào thải các cá thể mang biến dị bất lợi, giữ lại và nhân rộng các biến dị có lợi cho sinh vật.",
+        "Kết quả: Sự thích nghi của sinh vật với môi trường thay đổi."
+      ]
+    }
+  ],
+  "quizzes": {
+    "10": [
+      {
+        "question": "Bào quan nào sau đây được ví như 'nhà máy năng lượng' của tế bào?",
+        "options": ["Lục lạp", "Ti thể", "Bộ máy Golgi", "Ribosome"],
+        "correct": 1,
+        "explanation": "Ti thể là nơi diễn ra hô hấp tế bào, chuyển hóa các chất hữu cơ giải phóng năng lượng dưới dạng ATP."
+      },
+      {
+        "question": "Trong nguyên phân, các NST kép co xoắn cực đại và xếp thành 1 hàng trên mặt phẳng xích đạo ở kỳ nào?",
+        "options": ["Kỳ đầu", "Kỳ giữa", "Kỳ sau", "Kỳ cuối"],
+        "correct": 1,
+        "explanation": "Tại kỳ giữa, NST kép co xoắn cực đại giúp dễ dàng quan sát hình thái và xếp thành 1 hàng."
+      }
+    ],
+    "11": [
+      {
+        "question": "Động lực nào sau đây đóng vai trò chủ yếu trong việc kéo nước từ rễ lên lá cây?",
+        "options": ["Áp suất rễ", "Lực liên kết giữa các phân tử nước", "Lực thoát hơi nước ở lá", "Lực bám của nước vào thành mạch gỗ"],
+        "correct": 2,
+        "explanation": "Thoát hơi nước ở lá tạo ra một sức hút nước (lực kéo đầu trên) cực kỳ lớn, kéo cột nước từ rễ lên tận ngọn cây."
+      },
+      {
+        "question": "Pha sáng của quá trình quang hợp diễn ra ở cấu trúc nào sau đây của lục lạp?",
+        "options": ["Màng ngoài lục lạp", "Chất nền (stroma)", "Màng thylakoid (grana)", "Màng trong lục lạp"],
+        "correct": 2,
+        "explanation": "Màng thylakoid chứa hệ sắc tố quang hợp cùng chuỗi truyền electron là nơi diễn ra các phản ứng pha sáng."
+      }
+    ],
+    "12": [
+      {
+        "question": "Trong cơ chế dịch mã, anticodon trên tARN sẽ khớp bổ sung trực tiếp với cái gì trên mARN?",
+        "options": ["Codon", "Triplet", "Vùng khởi động", "Vùng vận hành"],
+        "correct": 0,
+        "explanation": "Anticodon của tARN khớp bổ sung với codon trên mARN theo nguyên tắc bổ sung (A-U, G-X) để định vị acid amin."
+      },
+      {
+        "question": "Theo Darwin, nhân tố chính quy định chiều hướng và tốc độ biến đổi của các giống sinh vật là gì?",
+        "options": ["Chọn lọc tự nhiên", "Chọn lọc nhân tạo", "Biến động di truyền", "Đột biến"],
+        "correct": 0,
+        "explanation": "Chọn lọc tự nhiên giữ vai trò chủ đạo quy định hướng thích nghi của các quần thể sinh vật trong tự nhiên."
+      }
+    ]
+  },
+  "infographics": [
+    {
+      "title": "Chu kỳ tế bào & Nguyên phân (Mitosis)",
+      "desc": "Mô tả 4 giai đoạn nguyên phân giúp phân chia tế bào đều đặn.",
+      "svg": "<svg viewBox=\"0 0 400 300\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100%\" height=\"100%\" fill=\"#0a2e22\" rx=\"15\"/><circle cx=\"200\" cy=\"150\" r=\"80\" fill=\"none\" stroke=\"#10b981\" stroke-width=\"4\"/><text x=\"200\" y=\"150\" fill=\"#ffffff\" font-size=\"16\" font-weight=\"bold\" text-anchor=\"middle\">MITOSIS</text><circle cx=\"200\" cy=\"70\" r=\"20\" fill=\"#059669\" /><circle cx=\"280\" cy=\"150\" r=\"20\" fill=\"#059669\" /><circle cx=\"200\" cy=\"230\" r=\"20\" fill=\"#059669\" /><circle cx=\"120\" cy=\"150\" r=\"20\" fill=\"#059669\" /><text x=\"200\" y=\"60\" fill=\"#a7f3d0\" font-size=\"10\" text-anchor=\"middle\">Kỳ đầu</text><text x=\"315\" y=\"154\" fill=\"#a7f3d0\" font-size=\"10\" text-anchor=\"middle\">Kỳ giữa</text><text x=\"200\" y=\"260\" fill=\"#a7f3d0\" font-size=\"10\" text-anchor=\"middle\">Kỳ sau</text><text x=\"85\" y=\"154\" fill=\"#a7f3d0\" font-size=\"10\" text-anchor=\"middle\">Kỳ cuối</text></svg>"
+    },
+    {
+      "title": "Cơ chế nhân đôi ADN (DNA Replication)",
+      "desc": "Quá trình tự sao chép bán bảo toàn diễn ra trong pha S kỳ trung gian.",
+      "svg": "<svg viewBox=\"0 0 400 300\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100%\" height=\"100%\" fill=\"#0a2e22\" rx=\"15\"/><path d=\"M 50 150 Q 100 80, 150 150 T 250 150 T 350 150\" fill=\"none\" stroke=\"#06b6d4\" stroke-width=\"4\"/><path d=\"M 50 150 Q 100 220, 150 150 T 250 150 T 350 150\" fill=\"none\" stroke=\"#10b981\" stroke-width=\"4\"/><line x1=\"100\" y1=\"115\" x2=\"100\" y2=\"185\" stroke=\"#f43f5e\" stroke-width=\"3\" stroke-dasharray=\"4\"/><line x1=\"200\" y1=\"115\" x2=\"200\" y2=\"185\" stroke=\"#f43f5e\" stroke-width=\"3\" stroke-dasharray=\"4\"/><line x1=\"300\" y1=\"115\" x2=\"300\" y2=\"185\" stroke=\"#f43f5e\" stroke-width=\"3\" stroke-dasharray=\"4\"/><text x=\"200\" y=\"50\" fill=\"#ffffff\" font-size=\"16\" font-weight=\"bold\" text-anchor=\"middle\">NHÂN ĐÔI ADN</text><text x=\"200\" y=\"270\" fill=\"#ecfeff\" font-size=\"11\" text-anchor=\"middle\">Nguyên tắc: Bán bảo toàn &amp; Bổ sung</text></svg>"
+    },
+    {
+      "title": "Quá trình Quang hợp (Photosynthesis)",
+      "desc": "Sự liên kết chặt chẽ giữa pha sáng (Thylakoid) và pha tối (Calvin).",
+      "svg": "<svg viewBox=\"0 0 400 300\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"100%\" height=\"100%\" fill=\"#0a2e22\" rx=\"15\"/><circle cx=\"120\" cy=\"150\" r=\"50\" fill=\"#10b981\" opacity=\"0.8\"/><circle cx=\"280\" cy=\"150\" r=\"50\" fill=\"#06b6d4\" opacity=\"0.8\"/><text x=\"120\" y=\"155\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"middle\">PHA SÁNG</text><text x=\"280\" y=\"155\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"middle\">PHA TỐI</text><path d=\"M 170 130 C 200 110, 200 110, 230 130\" fill=\"none\" stroke=\"#f43f5e\" stroke-width=\"3\"/><text x=\"200\" y=\"105\" fill=\"#f43f5e\" font-size=\"10\" text-anchor=\"middle\">ATP &amp; NADPH</text><text x=\"200\" y=\"40\" fill=\"#ffffff\" font-size=\"16\" font-weight=\"bold\" text-anchor=\"middle\">QUANG HỢP LỤC LẠP</text></svg>"
+    }
+  ],
+  "outlines": [
+    { "title": "Đề cương ôn tập Giữa học kỳ 1 - Sinh học 10", "grade": 10, "term": "Giữa kỳ", "link": "#" },
+    { "title": "Đề cương ôn tập Học kỳ 1 (Đầy đủ) - Sinh học 10", "grade": 10, "term": "Cuối kỳ", "link": "#" },
+    { "title": "Tóm tắt Chuyên đề Sinh học cơ thể thực vật - Sinh học 11", "grade": 11, "term": "Giữa kỳ", "link": "#" },
+    { "title": "Đề cương tổng hợp kiến thức cả năm - Sinh học 11", "grade": 11, "term": "Cuối kỳ", "link": "#" },
+    { "title": "Đề cương ôn tập tốt nghiệp THPT chuyên đề Di truyền học - Sinh học 12", "grade": 12, "term": "THPT Quốc gia", "link": "#" },
+    { "title": "Đề cương ôn tập tốt nghiệp THPT chuyên đề Tiến hóa & Sinh thái - Sinh học 12", "grade": 12, "term": "THPT Quốc gia", "link": "#" }
+  ],
+  "mockExam": [
+    {
+      "q": "Câu 1: Đơn phân cấu tạo nên phân tử ADN là gì?",
+      "options": ["A. Nucleotide", "B. Acid amin", "C. Glucose", "D. Acid béo"],
+      "correct": 0,
+      "solution": "Đơn phân cấu tạo nên nucleic acid (ADN, ARN) là các nucleotide."
+    },
+    {
+      "q": "Câu 2: Ở thực vật, bào quan trực tiếp thực hiện quá trình quang hợp là?",
+      "options": ["A. Ti thể", "B. Lục lạp", "C. Không bào", "D. Trung thể"],
+      "correct": 1,
+      "solution": "Lục lạp chứa chất diệp lục hấp thu ánh sáng mặt trời để thực hiện quang hợp."
+    },
+    {
+      "q": "Câu 3: Trong cơ chế điều hòa hoạt động của operon Lac ở E. coli, protein ức chế liên kết với vùng nào?",
+      "options": ["A. Vùng khởi động (P)", "B. Vùng vận hành (O)", "C. Nhóm gen cấu trúc", "D. Gen điều hòa"],
+      "correct": 1,
+      "solution": "Protein ức chế bám vào vùng vận hành (O) để ngăn cản ARN polymerase phiên mã nhóm gen cấu trúc."
+    },
+    {
+      "q": "Câu 4: Quá trình giảm phân bình thường tạo ra mấy tế bào con từ một tế bào sinh dưỡng mẹ?",
+      "options": ["A. 2 tế bào lưỡng bội", "B. 4 tế bào đơn bội", "C. 2 tế bào đơn bội", "D. 4 tế bào lưỡng bội"],
+      "correct": 1,
+      "solution": "Giảm phân qua hai lần phân bào liên tiếp tạo ra 4 tế bào con đơn bội (n NST) từ tế bào mẹ 2n NST."
+    },
+    {
+      "q": "Câu 5: Nhân tố nào dưới đây làm thay đổi tần số alen và thành phần kiểu gen của quần thể theo hướng xác định?",
+      "options": ["A. Đột biến", "B. Giao phối không ngẫu nhiên", "C. Chọn lọc tự nhiên", "D. Các yếu tố ngẫu nhiên"],
+      "correct": 2,
+      "solution": "Chọn lọc tự nhiên là nhân tố tiến hóa có hướng độc nhất làm tích lũy các kiểu gen thích nghi."
+    },
+    {
+      "q": "Câu 6: Các bằng chứng tiến hóa gián tiếp cho thấy mối quan hệ họ hàng giữa các loài bao gồm?",
+      "options": ["A. Bằng chứng phôi sinh học, giải phẫu so sánh, tế bào và sinh học phân tử", "B. Bằng chứng hóa thạch", "C. Cả bằng chứng trực tiếp và hóa thạch", "D. Chỉ bằng chứng giải phẫu so sánh"],
+      "correct": 0,
+      "solution": "Bằng chứng gián tiếp là giải phẫu so sánh, tế bào, sinh học phân tử và phôi sinh học."
+    },
+    {
+      "q": "Câu 7: Quá trình hấp thụ thụ động ion khoáng ở rễ cây diễn ra theo nguyên lý?",
+      "options": ["A. Từ nơi nồng độ thấp đến nơi nồng độ cao (cần ATP)", "B. Đi cùng dòng mạch gỗ cực mạnh", "C. Từ nơi nồng độ cao đến nơi nồng độ thấp", "D. Nhờ hoạt động co bóp của lông hút"],
+      "correct": 2,
+      "solution": "Hấp thụ thụ động tuân theo nguyên lý khuếch tán chất tan từ nồng độ cao sang nồng độ thấp."
+    },
+    {
+      "q": "Câu 8: Ở động vật có ống tiêu hóa, thức ăn được tiêu hóa theo hình thức nào?",
+      "options": ["A. Chỉ tiêu hóa ngoại bào", "B. Tiêu hóa ngoại bào kết hợp tiêu hóa nội bào", "C. Chỉ tiêu hóa nội bào", "D. Tiêu hóa nhờ hệ mạch gỗ"],
+      "correct": 1,
+      "solution": "Ống tiêu hóa thực hiện tiêu hóa ngoại bào cơ học và hóa học trước, sau đó hấp thụ chất dinh dưỡng vào tế bào."
+    },
+    {
+      "q": "Câu 9: Diễn thế sinh thái khởi đầu từ một môi trường trống trơn chưa từng có sinh vật sinh sống gọi là?",
+      "options": ["A. Diễn thế thứ sinh", "B. Diễn thế nguyên sinh", "C. Diễn thế phân hủy", "D. Diễn thế cân bằng"],
+      "correct": 1,
+      "solution": "Diễn thế nguyên sinh bắt đầu từ môi trường chưa từng có quần xã sinh vật tồn tại."
+    },
+    {
+      "q": "Câu 10: Tập hợp các cá thể sinh vật cùng loài sinh sống trong một khoảng không gian nhất định tại một thời điểm xác định được gọi là?",
+      "options": ["A. Quần thể sinh vật", "B. Quần xã sinh vật", "C. Hệ sinh thái", "D. Sinh quyển"],
+      "correct": 0,
+      "solution": "Tập hợp các cá thể cùng loài sống cùng nhau tại một thời gian, không gian xác định tạo thành quần thể."
+    }
+  ]
+}

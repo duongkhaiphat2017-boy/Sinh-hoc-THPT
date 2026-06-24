@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SinhHọc Hub - Học tập & Ôn thi Sinh học THPT</title>
+  <meta name="description" content="Nền tảng tóm tắt kiến thức lý thuyết Sinh học lớp 10, 11, 12, luyện tập trắc nghiệm trực tuyến, thư viện infographics trực quan và đề thi thử tốt nghiệp THPT Quốc gia.">
+  
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="nav-container">
+      <a href="#" class="logo" onclick="navigateTo('home'); return false;">
+        <svg width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.53c-.26-.81-1-1.4-1.9-1.4h-1v-3c0-.55-.45-1-1-1h-6v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.4z"/>
+        </svg>
+        <span>SinhHọc Hub</span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-menu">
+        <li><a href="#" class="nav-link active" data-view="home">Trang chủ</a></li>
+        <li><a href="#" class="nav-link" data-view="knowledge">Tóm tắt kiến thức</a></li>
+        <li><a href="#" class="nav-link" data-view="exercises">Bài tập tự luyện</a></li>
+        <li><a href="#" class="nav-link" data-view="infographics">Thư viện Infographics</a></li>
+        <li><a href="#" class="nav-link" data-view="outlines">Đề cương ôn thi</a></li>
+        <li><a href="#" class="nav-link" data-view="mock-exam">Thi thử THPT</a></li>
+        <li>
+          <button class="btn-theme-toggle" aria-label="Đổi giao diện">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+        <span>Chương trình Giáo dục Phổ thông mới</span>
+      </div>
+      <h1>Chinh phục môn Sinh học THPT</h1>
+      <p>Hệ thống ôn luyện, tóm tắt lý thuyết trực quan và mô phỏng phòng thi THPT Quốc gia chuẩn cấu trúc.</p>
+      
+      <div class="search-box-wrapper">
+        <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+        <input type="text" class="search-bar" placeholder="Tìm kiếm bài học, chuyên đề hoặc đề cương ôn thi...">
+        <div class="search-suggestions"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Home quick links on landing -->
+  <section class="quick-links">
+    <a href="#" class="quick-card" onclick="navigateTo('knowledge'); return false;">
+      <div class="quick-card-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M4 4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5V4.5z"/></svg>
+      </div>
+      <h3>Tóm tắt kiến thức lý thuyết</h3>
+      <p>Khám phá thư viện kiến thức cô đọng sắp xếp theo khối lớp 10, 11, 12 hoặc chủ đề sinh học trọng tâm.</p>
+    </a>
+
+    <a href="#" class="quick-card" onclick="navigateTo('exercises'); return false;">
+      <div class="quick-card-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+      </div>
+      <h3>Trắc nghiệm tự luyện tập</h3>
+      <p>Luyện tập trắc nghiệm nhận biết, thông hiểu, vận dụng có giải thích chi tiết ngay lập tức.</p>
+    </a>
+
+    <a href="#" class="quick-card" onclick="navigateTo('mock-exam'); return false;">
+      <div class="quick-card-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+      </div>
+      <h3>Giả lập thi thử THPT</h3>
+      <p>Bấm giờ 50 phút làm đề thi mô phỏng 40 câu cấu trúc đầy đủ, tự động chấm điểm và chữa bài.</p>
+    </a>
+  </section>
+
+  <!-- Main view contents -->
+  <main class="main-content">
+    
+    <!-- 1. Home dashboard view -->
+    <div id="home" class="section-container active-view">
+      <div class="section-header">
+        <h2>Bảng tin học tập</h2>
+        <p>Theo dõi quá trình học tập hôm nay của bạn.</p>
+      </div>
+      <div id="home-progress"></div>
+      
+      <div class="grade-exercise-grid" style="margin-top: 2rem;">
+        <div class="exercise-card">
+          <h3>Mẹo học thi hiệu quả</h3>
+          <p style="font-size:0.9rem; color:var(--text-muted);">Sử dụng tab <strong>Thư viện Infographics</strong> để ghi nhớ tốt nhất các cơ chế nhân đôi ADN, quang hợp hay nguyên phân thông qua hình ảnh trực quan sinh động.</p>
+        </div>
+        <div class="exercise-card">
+          <h3>Thử thách trắc nghiệm</h3>
+          <p style="font-size:0.9rem; color:var(--text-muted);">Mỗi ngày rèn luyện 5 câu hỏi nhanh giúp ghi nhớ lâu các công thức di truyền học khó nhằn của lớp 12.</p>
+          <button class="btn-primary" onclick="navigateTo('exercises')">Bắt đầu luyện tập</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. Knowledge Library -->
+    <div id="knowledge" class="section-container">
+      <div class="section-header">
+        <h2>Tóm tắt kiến thức Sinh học</h2>
+        <p>Hệ thống lý thuyết cốt lõi bám sát chương trình phổ thông mới.</p>
+      </div>
+      
+      <div class="tabs-nav" id="knowledge-tabs"></div>
+      <div class="knowledge-grid" id="knowledge-list-grid"></div>
+    </div>
+
+    <!-- 3. Exercises view -->
+    <div id="exercises" class="section-container">
+      <div class="section-header">
+        <h2>Bài tập luyện tập theo khối</h2>
+        <p>Luyện tập trắc nghiệm củng cố kiến thức theo cấu trúc bài học.</p>
+      </div>
+      
+      <div class="grade-exercise-grid" id="exercise-grades-grid"></div>
+    </div>
+
+    <!-- 4. Infographics view -->
+    <div id="infographics" class="section-container">
+      <div class="section-header">
+        <h2>Infographics bài học trực quan</h2>
+        <p>Tóm tắt các quá trình sinh học phức tạp bằng sơ đồ chất lượng cao.</p>
+      </div>
+      
+      <div class="info-grid" id="infographics-grid"></div>
+    </div>
+
+    <!-- 5. Outlines view -->
+    <div id="outlines" class="section-container">
+      <div class="section-header">
+        <h2>Tài liệu &amp; Đề cương ôn thi</h2>
+        <p>Tải xuống tài liệu PDF, cấu trúc bài tập chuẩn bị cho kỳ kiểm tra của bạn.</p>
+      </div>
+      
+      <input type="text" class="outline-search-bar" id="outline-search" placeholder="Nhập tên tài liệu, lớp hoặc chuyên đề cần tìm...">
+      <div class="outline-table-container">
+        <table class="outline-table">
+          <thead>
+            <tr>
+              <th>Tên tài liệu</th>
+              <th>Khối lớp</th>
+              <th>Phân loại</th>
+              <th>Thao tác</th>
+            </tr>
+          </thead>
+          <tbody id="outlines-table-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- 6. Mock Graduation Exam view -->
+    <div id="mock-exam" class="section-container">
+      <div class="section-header">
+        <h2>Thi thử Tốt nghiệp THPT Quốc gia</h2>
+        <p>Giả lập phòng thi thực tế giúp rèn luyện tâm lý phòng thi và phân bổ thời gian hợp lý.</p>
+      </div>
+      
+      <div id="mock-exam-container"></div>
+    </div>
+
+  </main>
+
+  <!-- Interactive Quiz Modal -->
+  <div class="modal" id="quiz-modal">
+    <div class="modal-content" id="quiz-modal-content"></div>
+  </div>
+
+  <!-- Lightbox Modal for Infographics -->
+  <div class="modal" id="lightbox-modal">
+    <div class="modal-content lightbox-content" id="lightbox-modal-content"></div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 SinhHọc Hub. Thiết kế cho sự nghiệp phát triển khoa học giáo dục Sinh học Việt Nam.</p>
+    <p style="font-size: 0.8rem; margin-top: 0.5rem; opacity: 0.7;">Bản quyền nội dung bám sát Chương trình GDPT mới Bộ GD&amp;ĐT.</p>
+  </footer>
+
+  <!-- App logic script -->
+  <script src="app.js"></script>
+</body>
+</html>
